@@ -1,0 +1,99 @@
+name: Update Contribution Calendar
+
+on:
+  workflow_dispatch:   # run manually from GitHub app / website
+  # Uncomment to also run every day at 21:00 UTC:
+  # schedule:
+  #   - cron: "0 21 * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install notion-client==3.1.0 python-dotenv==1.2.4
+
+      - name: Write .env from secrets
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_PARENT_PAGE: ${{ secrets.NOTION_PARENT_PAGE }}
+        run: |
+          if [ -z "$NOTION_TOKEN" ]; then
+            echo "Missing secret NOTION_TOKEN"
+            exit 1
+          fi
+          if [ -z "$NOTION_PARENT_PAGE" ]; then
+            echo "Missing secret NOTION_PARENT_PAGE"
+            exit 1
+          fi
+          cat > .env <<ENV
+          NOTION_TOKEN=$NOTION_TOKEN
+          NOTION_PARENT_PAGE=$NOTION_PARENT_PAGE
+          ENV
+
+      - name: Ensure state dir
+        run: mkdir -p data/state
+
+      - name: Seed state from secrets (if no local state in repo)
+        env:
+          TASKS_DS: ${{ secrets.TASKS_DATA_SOURCE_ID }}
+          CONTRIB_DS: ${{ secrets.CONTRIB_DATA_SOURCE_ID }}
+          CONTRIB_DB: ${{ secrets.CONTRIB_DATABASE_ID }}
+        run: |
+          # Prefer committed state if present; otherwise build a minimal one from secrets
+          if [ -f data/state/notion_state.json ]; then
+            echo "Using committed state file"
+            exit 0
+          fi
+          if [ -z "$TASKS_DS" ] || [ -z "$CONTRIB_DS" ]; then
+            echo "No state file and missing TASKS_DATA_SOURCE_ID / CONTRIB_DATA_SOURCE_ID secrets"
+            exit 1
+          fi
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          state = {
+            "parent_page_id": None,
+            "system_page_id": None,
+            "databases": {
+              "tasks": {
+                "database_id": "",
+                "data_source_id": os.environ["TASKS_DS"].replace("collection://", ""),
+                "properties": {},
+              },
+              "contribution_calendar": {
+                "database_id": os.environ.get("CONTRIB_DB", "").replace("https://www.notion.so/", "").split("?")[0][-32:] if os.environ.get("CONTRIB_DB") else "",
+                "data_source_id": os.environ["CONTRIB_DS"].replace("collection://", ""),
+                "properties": {},
+              },
+            },
+            "views": {},
+            "dashboard": {},
+            "records": {},
+          }
+          # Normalise UUIDs (allow with or without dashes / collection:// prefix)
+          def norm(s):
+              s = (s or "").replace("collection://", "").replace("-", "").lower()
+              if len(s) == 32:
+                  return f"{s[:8]}-{s[8:12]}-{s[12:16]}-{s[16:20]}-{s[20:]}"
+              return s
+          state["databases"]["tasks"]["data_source_id"] = norm(os.environ["TASKS_DS"])
+          state["databases"]["contribution_calendar"]["data_source_id"] = norm(os.environ["CONTRIB_DS"])
+          if os.environ.get("CONTRIB_DB"):
+              state["databases"]["contribution_calendar"]["database_id"] = norm(os.environ["CONTRIB_DB"])
+          Path("data/state/notion_state.json").write_text(json.dumps(state, indent=2))
+          print("Wrote minimal state for CI")
+          PY
+
+      - name: Update contribution calendar
+        run: python scripts/update_contribution_calendar.py --apply

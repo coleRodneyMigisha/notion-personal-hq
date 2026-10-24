@@ -1,0 +1,7 @@
+# Runtime
+notion-client==3.1.0     # Notion API SDK (supports API version 2026-03-11, data sources, views)
+python-dotenv==1.2.4     # reads NOTION_TOKEN from the local .env file
+Pillow>=10.0             # opens screenshots in scripts/inspect_sources.py
+
+# Tests
+pytest==9.1.1

@@ -1,0 +1,34 @@
+page_id,source_file,sha256,width,height,status,date_written,date_iso,date_confidence,page_type,item_count,issues
+P01,WhatsApp Image 2026-10-22 at 18.43.06.jpeg,aa4703126d5dcb637cf3a41b7645c82bf7b06cd52f5989fd46ceb71dc453eb7b,810,1080,inspected,16/09/2026,2026-09-16,high,daily,11,
+P02,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg,9572482a1988c1ed02df46aa832658a2edff92e6e1cada9e41f669fc6e4d26b8,810,1080,inspected,17/Sept/2026,2026-09-17,high,daily,10,
+P03,WhatsApp Image 2026-10-22 at 18.43.07.jpeg,30d9acebf3c7cc1d6a3087a1a563ee7c32beb27a9ff611a206f45d4006e0a3cf,810,1080,inspected,18/Sept/2026 with '19' written below,2026-09-18,high,daily,8,'19' under the date suggests the page covers Fri 18 and Sat 19 Sep
+P04,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg,73797fabd6f453f8b78a6edcb38af0ffc493f0840ad9214cff71bc2edf29d53e,810,1080,inspected,21/Sept/2026,2026-09-21,high,daily,9,Header 'goals'. Times written slightly above each line; row alignment assumed
+P05,WhatsApp Image 2026-10-22 at 18.43.08.jpeg,8c6167d710ba002c11250ea6f96f408f54c8a615b3c8800f0ded213471c8ff22,810,1080,inspected,22/Sept/2026,2026-09-22,medium,daily,9,Day digits partly unclear; 22 fits page order
+P06,WhatsApp Image 2026-10-22 at 18.43.12.jpeg,d4022a8253d94ecdd834fae5bd053a8a10e8e203c0acd448d17e8742199923e1,810,1080,inspected,24/Sept/2026,2026-09-24,high,daily,5,
+P07,WhatsApp Image 2026-10-22 at 18.43.16 (1).jpeg,d6914c9e98784badd00bcbcc4a850113bb6668dd6b50083c934b626711ab5164,810,1080,inspected,'weekend' (no date),,inferred,weekend,6,"Undated. 'wbs' and 'airqo training & testing' were both open on 24 Sep, so 26-27 Sep is the likely weekend (inference)"
+P08,WhatsApp Image 2026-10-22 at 18.43.21.jpeg,096943b6c4b4122bc6ef09cce74bf596c89b66fc356a67320464c8f724f1ef29,810,1080,inspected,28/Sept/2026,2026-09-28,high,daily,7,
+P09,WhatsApp Image 2026-10-22 at 18.43.16.jpeg,9b623a356cb362f1dd524742d3915d6458c4f0120642b17ee7fae1f52cf36d22,810,1080,inspected,29/Sept/2026,2026-09-29,high,daily,12,
+P10,WhatsApp Image 2026-10-22 at 18.43.23.jpeg,1e20f7e6cb52c5b56777689b9276a755b4bc6da03ccbbac2aabca411983a8e9b,810,1080,inspected,30/Sept/2026,2026-09-30,high,daily,12,Orange ink used for annotations on this page
+P11,WhatsApp Image 2026-10-22 at 18.43.22.jpeg,9c989f14059e7fc237ab3308e094c9a548208dc390c3330741398f4e797c2c9f,810,1080,inspected,01/Oct/2026,2026-10-01,high,daily,10,
+P12,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg,30e45d8c04e96a258ec076c5574c42cd3322cafb4a0f794fada896197cf8d8a7,810,1080,inspected,02/Oct/2026,2026-10-02,high,daily,9,"Times written above each line; row alignment assumed (8 items, 7 times)"
+P13,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg,08965892517105b2c0e47e06bd9bba3ee64ed7d3455e7e61d3d355f2066e40e0,810,1080,inspected,03/Oct/2026,2026-10-03,high,daily,10,
+P14,WhatsApp Image 2026-10-22 at 18.43.31.jpeg,9b19e4b399afd0185b9ecc279820fbdda2db8de0dc4e91b52b6c6c15969321ce,810,1080,inspected,04/Oct/2026,2026-10-04,high,daily,7,
+P15,WhatsApp Image 2026-10-22 at 18.43.50.jpeg,68a5df7a25df163b2cb85a7ec183eb65d990c4ddeb8d8e9b064bef2732e84743,810,1080,inspected,no date,,inferred,mixed_weekly,18,"Two daily items at top (probably 4/5 Oct: 'slides for AI' was open on 4 Oct), then 'GOALS THIS WEEK (05 Oct - 11 Oct)' in green"
+P16,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg,0023c7a31683df02b95665a01015e094aa04644a826278afdc58dc9c20887142,810,1080,inspected,05/Oct/2026,2026-10-05,high,daily,12,
+P17,WhatsApp Image 2026-10-22 at 18.43.51.jpeg,d6aca891cf624dbe130fe8253fdc60f27ac7708cc9b8c302806ffc89c3e6e9bb,810,1080,inspected,06/Oct/2026,2026-10-06,high,daily,11,
+P18,WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg,4af43d478d08d86bf6bbd01c5ec3e28ac8488e6dfddf4aae9cc41f02245aa34e,810,1080,inspected,07/Oct/2026,2026-10-07,high,daily,9,
+P19,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg,4bf75964cb14ee4b00636817e917a81f82522ecc2241b329ec4548ac3be04866,810,1080,inspected,08/Oct/2026,2026-10-08,high,daily,10,
+P20,WhatsApp Image 2026-10-22 at 18.43.54.jpeg,ca518fcd912c7195feff9dd4e1a81ec3a265a5c5b3fea77f3bd36d12d2918ec4,810,1080,inspected,09/Oct/2026,2026-10-09,high,daily,3,
+P21,WhatsApp Image 2026-10-22 at 18.43.52.jpeg,6332c4da81fcb2a92d82ef5e3ee2829947a55fb6ca004423198fdb88261fae38,810,1080,inspected,10/10/2026 with '11' written below,2026-10-10,high,daily,11,'11' under the date suggests the page covers Sat 10 and Sun 11 Oct
+P22,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg,a045d1a6b9d68b845d13fbbf18cbfc82de85b44e7df2383186755da6a8c9521a,810,1080,inspected,12/Oct/2026,2026-10-12,high,daily,10,
+P23,WhatsApp Image 2026-10-22 at 18.43.56 (3).jpeg,ae7292131434a43c1f6b99ffc4c7cded6c8a17457256189c3f8f70c313c92f81,810,1080,inspected,no date,,high,weekly,8,'week's goals 12-18 Oct' (green)
+P24,WhatsApp Image 2026-10-22 at 18.43.55.jpeg,7f9f38c0d708b7030c5f0adeb1e0a7a3ddd7d3473fdd28652060cb96692df835,810,1080,inspected,13/Oct/2026,2026-10-13,high,daily,14,
+P25,WhatsApp Image 2026-10-22 at 18.43.56.jpeg,d372ad3c5d650f42162d427bd0cdcfbb9a04d6a841743dadb6b0bcbdb7f17eb1,810,1080,inspected,14/Oct/2026,2026-10-14,high,daily,10,
+P26,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg,529a34b60821c6739e5da09c4881a9cad562006221a90b8b78a1694aec6db014,810,1080,inspected,1?/Oct/2026 (day digit overwritten),2026-10-15,medium,daily,9,Second digit overwritten; 15 fits between 14 and 16 Oct
+P27,WhatsApp Image 2026-10-22 at 18.43.57.jpeg,ec8e1b1a46e03450db52ee90213744e739108c15b5d978981ee981e90fc3bda0,810,1080,inspected,16/Oct/2026,2026-10-16,high,daily,4,
+P28,WhatsApp Image 2026-10-22 at 18.43.57 (1).jpeg,4cc56abf043fdaee141e4232ab1e01565313d6acdf731384ce57b21b39552227,810,1080,inspected,17/Oct/2026,2026-10-17,high,daily,4,
+P29,WhatsApp Image 2026-10-22 at 18.43.58.jpeg,706668dff28fdb2f5e27c9806882676edf68f8841dff090b3e308f4ca0efad9e,810,1080,inspected,18/Oct/2026,2026-10-18,high,mixed_weekly,17,"Daily items, then 'This week's goals 19-25 Oct' (green)"
+P30,WhatsApp Image 2026-10-22 at 18.44.00 (1).jpeg,597e7fe0d0c5c1bab249b2fabdf6e8c6dc0d616b6cf056472542ba26cee4dd3e,810,1080,inspected,19/Oct/2026,2026-10-19,high,daily,8,
+P31,WhatsApp Image 2026-10-22 at 18.44.00.jpeg,1544e2ad554616c564cf9911a70975ac1a4f69b4186643e2077a176c340cfee1,810,1080,inspected,20/Oct/2026,2026-10-20,high,daily,11,
+P32,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg,1c62cf6add7170a1e42fd2ae5d17e0b5e3f533a41fa2289fbc4c3584ce0a9af2,810,1080,inspected,21/Oct/2026,2026-10-21,high,daily,9,
+P33,WhatsApp Image 2026-10-22 at 18.43.59.jpeg,d36078ece4d1c2108db4f532db1449cfaf487e6433bd600f5d5bb8fb72fe0ab5,810,1080,inspected,22/Oct/2026,2026-10-22,high,daily,13,Today's page (photographed 22 Oct); empty boxes may simply be not yet done

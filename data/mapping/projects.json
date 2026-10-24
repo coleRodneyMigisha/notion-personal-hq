@@ -1,0 +1,28 @@
+{
+  "_comment": "Which recurring threads in the notes become Projects. Edit names/areas freely; 'thread' must match proposed_thread in extraction.json. Threads not listed here stay as plain tasks.",
+  "projects": [
+    {"thread": "lit_review", "name": "Structured literature review", "area": "RES"},
+    {"thread": "honours_paper", "name": "Honours paper", "area": "RES"},
+    {"thread": "fyp", "name": "Final-year project (video dataset & models)", "area": "RES"},
+    {"thread": "lip_reading", "name": "LipScribe - CV lip-reading project", "area": "ACAD"},
+    {"thread": "spm_course", "name": "Software Project Management course", "area": "ACAD"},
+    {"thread": "ds_course", "name": "Data Science course", "area": "ACAD"},
+    {"thread": "cv_course", "name": "Computer Vision course", "area": "ACAD"},
+    {"thread": "sci_writing", "name": "Scientific Writing course", "area": "ACAD"},
+    {"thread": "ai_course", "name": "AI course", "area": "ACAD"},
+    {"thread": "airqo", "name": "AirQo model", "area": "TECH"},
+    {"thread": "zindi", "name": "Zindi competitions", "area": "TECH"},
+    {"thread": "opencv_course", "name": "OpenCV bootcamp", "area": "TECH"},
+    {"thread": "handson_ml_ch02", "name": "Hands-On ML book", "area": "TECH"},
+    {"thread": "complaints_site", "name": "Complaints site", "area": "TECH"},
+    {"thread": "activity_log_tracker", "name": "Activity log tracker", "area": "TECH"},
+    {"thread": "financial_stress_model", "name": "Financial stress model", "area": "TECH"},
+    {"thread": "bareos", "name": "Bareos VM setup", "area": "TECH"},
+    {"thread": "honours_posters", "name": "Honours College posters", "area": "LEAD"},
+    {"thread": "odur_posters", "name": "Odur's poster designs", "area": "LEAD"},
+    {"thread": "code_buddies", "name": "Code Buddies mentoring", "area": "LEAD"},
+    {"thread": "blogs", "name": "Blogs", "area": "BRAND"},
+    {"thread": "portfolio", "name": "Portfolio", "area": "BRAND"},
+    {"thread": "roadmap", "name": "Life roadmap (short, mid & long term)", "area": "PERS"}
+  ]
+}

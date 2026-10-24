@@ -1,0 +1,317 @@
+﻿item_id,page_date,section,parent_item_id,text,box_mark,proposed_status,struck_through,carried_marker,ink,time_noted,annotation,proposed_area,proposed_thread,uncertain,uncertainty_note,source_file
+P01-01,2026-09-16,daily,,wakeup at 05:00,cross,not_done,False,False,black,,woke at 06:17 (green),HEALTH,sleep_wake,False,,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-02,2026-09-16,daily,,short run (15 min),cross,not_done,False,False,black,05:05-05:20,,HEALTH,running,False,,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-03,2026-09-16,daily,,morning devotion (+ preaching),tick,done,False,False,black,06:20-07:20,,FAITH,,False,,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-04,2026-09-16,daily,,"class (writing, research)",tick,done,False,False,black,08:00-18:00,,ACAD,,False,,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-05,2026-09-16,daily,,"start on zindi (study problem, load csv, clean, prepare, EDA)",tick,done,False,False,black,12:00-14:00,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-06,2026-09-16,daily,,ice cream with Kobel,tick,done,False,False,black,18:00-18:15,,PERS,,True,Name 'Kobel' uncertain,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-07,2026-09-16,daily,,fellowship (handle welfare),tick,done,False,False,black,18:30-21:00,,FAITH,fellowship,True,'handle welfare' is a best reading,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-08,2026-09-16,daily,,sleep at 01:00 (next day),tick,done,False,False,black,,,HEALTH,sleep_wake,False,,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-09,2026-09-16,daily,,review my introduction based off today's scientific writing class,cross,not_done,False,False,black,21:00-23:00,,ACAD,sci_writing,False,,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-10,2026-09-16,daily,,contact Mbeiza about pairing,marked,likely_done,False,False,black,22:00,,PERS,,True,Name 'Mbeiza' uncertain; mark shape between tick and cross,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P01-11,2026-09-16,daily,,solution tree,cross,not_done,False,False,black,23:00-00:00,-> print tomorrow (green),ACAD,sci_writing,True,Which course 'solution tree' belongs to is an inference,WhatsApp Image 2026-10-22 at 18.43.06.jpeg
+P02-01,2026-09-17,daily,,wake up 05:00,marked,likely_done,False,False,black,,"06:40 (green, actual time)",HEALTH,sleep_wake,False,,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P02-02,2026-09-17,daily,,run & workout,marked,likely_done,False,False,black,05:10-06:00,"06:50-07:15 (green, actual time)",HEALTH,running,False,,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P02-03,2026-09-17,daily,,leave my room ready for class,marked,likely_done,False,False,black,07:00,"08:00 (green, actual time)",PERS,,False,,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P02-04,2026-09-17,daily,,review introduction,marked,likely_done,False,False,black,07:10-07:40 (green x); 10:00-11:00 (green tick); 14:00-16:00,,ACAD,sci_writing,True,"Per-slot ticks/crosses: first slot missed, second done",WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P02-05,2026-09-17,daily,,"class 08:50-10:00 (tick), 14:00-16:00 (x, 'projector'), 16:00-18:00 (tick)",marked,likely_done,False,False,black,,,ACAD,,True,'08:50' partly overwritten,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P02-06,2026-09-17,daily,,community worship,marked,likely_done,False,False,black,12:00,,FAITH,,False,,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P02-07,2026-09-17,daily,,honours college workshop,marked,likely_done,False,False,black,18:30-21:30,,LEAD,honours_college,False,,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P02-08,2026-09-17,daily,,bed 01:00 (next day),marked,likely_done,False,False,black,,,HEALTH,sleep_wake,False,,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P02-09,2026-09-17,daily,,start on chapter 1 ('rest' struck before 'start'),marked,likely_done,False,False,black,11:00-12:00,,ACAD,sci_writing,False,,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P02-10,2026-09-17,daily,,project charter,marked,likely_done,False,False,black,15:00-16:00,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.06 (1).jpeg
+P03-01,2026-09-18,daily,,finalize introduction,tick,done,False,False,black,,,ACAD,sci_writing,False,,WhatsApp Image 2026-10-22 at 18.43.07.jpeg
+P03-02,2026-09-18,daily,,finalize chapter 01,tick,done,False,False,black,,* (green),ACAD,sci_writing,False,,WhatsApp Image 2026-10-22 at 18.43.07.jpeg
+P03-03,2026-09-18,daily,,lab 03 - data science,cross,not_done,False,False,black,,* Mon (green),ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.07.jpeg
+P03-04,2026-09-18,daily,,train a simple neural network,cross,not_done,False,False,black,,* Mon (green),ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.07.jpeg
+P03-05,2026-09-18,daily,,continue with zindi,cross,not_done,False,False,black,,- Tue (green),TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.07.jpeg
+P03-06,2026-09-18,daily,,"workout with Dalton (legs), then food & lanterns",tick,done,False,False,black,,,HEALTH,,True,'lanterns' uncertain,WhatsApp Image 2026-10-22 at 18.43.07.jpeg
+P03-07,2026-09-18,daily,,watch the computer vision tutorials left behind,cross,not_done,False,False,black,,- Tue * (green),ACAD,cv_course,False,,WhatsApp Image 2026-10-22 at 18.43.07.jpeg
+P03-08,2026-09-18,daily,,code for scenario from Davina,tick,done,False,False,black,,,LEAD,code_buddies,True,Davina appears as a code mentee on 22 Sep; link is an inference,WhatsApp Image 2026-10-22 at 18.43.07.jpeg
+P04-01,2026-09-21,daily,,get suit measurements done,marked,likely_done,False,False,black,11:00,,PERS,,True,'suit' uncertain,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg
+P04-02,2026-09-21,daily,,acquire weekly stock for business,marked,likely_done,False,False,black,10:00,,BIZ,business,False,,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg
+P04-03,2026-09-21,daily,,lab 03 data science,marked,likely_done,False,False,black,14:00,,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg
+P04-04,2026-09-21,daily,,assignment 02 data science,marked,likely_done,False,False,black,15:00,,ACAD,ds_course,True,Mark may be a cross,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg
+P04-05,2026-09-21,daily,,train a simple neural network,marked,likely_done,False,False,black,22:00,,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg
+P04-06,2026-09-21,daily,,pacesetters leaders meeting,marked,likely_done,False,False,black,19:00,,LEAD,pacesetters,False,,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg
+P04-07,2026-09-21,daily,,prayer meeting,marked,likely_done,False,False,black,13:00,,FAITH,,True,Mark may be a cross,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg
+P04-08,2026-09-21,daily,,honours election poster,marked,likely_done,False,False,black,,,LEAD,honours_posters,False,,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg
+P04-09,2026-09-21,daily,,"start on Wed, Thur honours posters",marked,likely_done,False,False,black,,,LEAD,honours_posters,False,,WhatsApp Image 2026-10-22 at 18.43.07 (1).jpeg
+P05-01,2026-09-22,daily,,help discuss with Davina (code mentee),tick,done,False,False,black,10:00,,LEAD,code_buddies,False,,WhatsApp Image 2026-10-22 at 18.43.08.jpeg
+P05-02,2026-09-22,daily,,continue with zindi,empty,not_done_on_page,False,True,black,22:00,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.08.jpeg
+P05-03,2026-09-22,daily,,computer vision tutorials left behind,empty,not_done_on_page,False,True,black,21:00,,ACAD,cv_course,False,,WhatsApp Image 2026-10-22 at 18.43.08.jpeg
+P05-04,2026-09-22,daily,,lab 03 data science (finish up),marked,likely_done,False,False,black,15:00 (bracketed with next),,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.08.jpeg
+P05-05,2026-09-22,daily,,assignment 02 data science,marked,likely_done,False,False,black,15:00 (bracketed),,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.08.jpeg
+P05-06,2026-09-22,daily,,finalize project charter,marked,likely_done,False,False,black,14:00 (bracketed with next),,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.08.jpeg
+P05-07,2026-09-22,daily,,"start on work breakdown structure (WBS) ('statement' struck, 'structure' written above)",empty,not_done_on_page,False,True,black,14:00 (bracketed),,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.08.jpeg
+P05-08,2026-09-22,daily,,continue EDA for AirQo model,marked,likely_done,False,False,black,16:00,,TECH,airqo,True,Mark may be a cross,WhatsApp Image 2026-10-22 at 18.43.08.jpeg
+P05-09,2026-09-22,daily,,code buddy t-shirt design,marked,likely_done,False,False,black,17:00,,LEAD,code_buddies,False,,WhatsApp Image 2026-10-22 at 18.43.08.jpeg
+P06-01,2026-09-24,daily,,wbs,empty,not_done_on_page,False,False,black,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.12.jpeg
+P06-02,2026-09-24,daily,,airqo training & testing,empty,not_done_on_page,False,False,black,,,TECH,airqo,False,,WhatsApp Image 2026-10-22 at 18.43.12.jpeg
+P06-03,2026-09-24,daily,,AI talk in NIL,marked,likely_done,False,False,black,,,ACAD,ai_course,True,'NIL' (place?) uncertain,WhatsApp Image 2026-10-22 at 18.43.12.jpeg
+P06-04,2026-09-24,daily,,computer vision test,marked,likely_done,False,False,black,,,ACAD,cv_course,False,,WhatsApp Image 2026-10-22 at 18.43.12.jpeg
+P06-05,2026-09-24,daily,,CV tutorials,marked,likely_done,False,False,black,,,ACAD,cv_course,False,,WhatsApp Image 2026-10-22 at 18.43.12.jpeg
+P07-01,'weekend' (no date),daily,,wbs,empty,not_done_on_page,False,False,black,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.16 (1).jpeg
+P07-02,'weekend' (no date),daily,,airqo training & testing,tick,done,False,False,black,,,TECH,airqo,False,,WhatsApp Image 2026-10-22 at 18.43.16 (1).jpeg
+P07-03,'weekend' (no date),daily,,new month poster,tick,done,False,False,black,,,LEAD,honours_posters,True,Which organisation the poster is for is unknown,WhatsApp Image 2026-10-22 at 18.43.16 (1).jpeg
+P07-04,'weekend' (no date),daily,,redesign research paper,tick,done,False,False,black,,,RES,,False,,WhatsApp Image 2026-10-22 at 18.43.16 (1).jpeg
+P07-05,'weekend' (no date),daily,,start zindi (frog challenge),tick,done,False,False,black,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.16 (1).jpeg
+P07-06,'weekend' (no date),daily,,finish & submit Data Science,tick,done,False,False,black,,,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.16 (1).jpeg
+P08-01,2026-09-28,daily,,online meeting with Mr. Syned (UCAA),marked,likely_done,False,False,black,11:00,,RES,,True,Name 'Syned' and acronym 'UCAA' uncertain,WhatsApp Image 2026-10-22 at 18.43.21.jpeg
+P08-02,2026-09-28,daily,,finalize zindi,marked,likely_done,False,False,black,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.21.jpeg
+P08-03,2026-09-28,daily,,finalize the reading,marked,likely_done,False,False,black,,,ACAD,,False,,WhatsApp Image 2026-10-22 at 18.43.21.jpeg
+P08-04,2026-09-28,daily,,roadmap,empty,not_done_on_page,False,False,black,,,PERS,roadmap,False,,WhatsApp Image 2026-10-22 at 18.43.21.jpeg
+P08-05,2026-09-28,daily,,discuss for data science group,marked,likely_done,False,False,black,14:00,,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.21.jpeg
+P08-06,2026-09-28,daily,,wednesday & thursday honours poster,marked,likely_done,False,False,black,,,LEAD,honours_posters,False,,WhatsApp Image 2026-10-22 at 18.43.21.jpeg
+P08-07,2026-09-28,daily,,test bareos in vm,marked,likely_done,False,False,black,,-> next step is bareos WebUI (green),TECH,bareos,False,,WhatsApp Image 2026-10-22 at 18.43.21.jpeg
+P09-01,2026-09-29,daily,,"visit Mrs. Winnie, the counsellor",empty,dropped,True,False,black,,,PERS,,True,Struck through; replaced by 'session with Mrs. Winnie' below (inference),WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-02,2026-09-29,daily,,continue EDA for financial stress model,empty,not_done_on_page,False,False,black,,,TECH,financial_stress_model,False,,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-03,2026-09-29,daily,,finish WBS & project charters,marked,likely_done,False,False,black,10:00,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-04,2026-09-29,daily,,"roadmap (short term, mid term, long term)",empty,not_done_on_page,False,False,black,,green circled symbol after item,PERS,roadmap,True,Circled green symbol meaning unknown,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-05,2026-09-29,daily,,session with Mrs. Winnie,marked,likely_done,False,False,black,13:30,,PERS,,False,,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-06,2026-09-29,daily,,sickle cell screening,empty,not_done_on_page,False,False,black,13:00,-> they were done: tomorrow (green),HEALTH,sickle_cell,False,,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-07,2026-09-29,daily,,submit computer vision class groups,marked,likely_done,False,False,black,18:00,,ACAD,cv_course,False,,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-08,2026-09-29,daily,,bareos webUI in vm,marked,likely_done,False,False,black,,,TECH,bareos,False,,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-09,2026-09-29,daily,,pick a project mgt tool,marked,likely_done,False,False,green,,,ACAD,spm_course,True,Mark may be a cross,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-10,2026-09-29,daily,,WBS & project charter in project mgt tool,marked,likely_done,False,False,green,,,ACAD,spm_course,True,Mark may be a cross,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-11,2026-09-29,daily,,start on literature review (basically read papers) ('decide' struck),empty,not_done_on_page,False,False,green,,-> til friday; circled symbol,RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P09-12,2026-09-29,note,,start with the roadmap tomorrow and reading one of the papers,none,n/a,False,False,green,,,,roadmap,False,,WhatsApp Image 2026-10-22 at 18.43.16.jpeg
+P10-01,2026-09-30,daily,,continue with financial stress model training,marked,likely_done,False,False,black,19:00 struck -> 22:00 (orange),orange arrow,TECH,financial_stress_model,True,Mark shape unclear,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-02,2026-09-30,daily,,"roadmaps (short, mid & long term)",tick,done,False,False,black,"10:00, 07:00",,PERS,roadmap,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-03,2026-09-30,daily,,sickle cell screening,marked,likely_done,False,False,black,14:00,no traits (orange),HEALTH,sickle_cell,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-04,2026-09-30,daily,,find a course on computer vision,tick,done,False,False,black,16:00,,TECH,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-05,2026-09-30,daily,,software project management exercises in slides,empty,not_done_on_page,False,False,black,,-> (orange arrow),ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-06,2026-09-30,daily,,Scientific Writing assignment due midnight,marked,likely_done,False,False,orange,,,ACAD,sci_writing,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-07,2026-09-30,subtask,P10-06,"title (literature review title, not project)",none,n/a,False,False,orange,,,ACAD,sci_writing,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-08,2026-09-30,subtask,P10-06,5-10 keywords or key phrases & boolean search,none,n/a,False,False,orange,,,ACAD,sci_writing,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-09,2026-09-30,subtask,P10-06,specific objectives (3),none,n/a,False,False,orange,,,ACAD,sci_writing,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-10,2026-09-30,subtask,P10-06,research questions (3),none,n/a,False,False,orange,,,ACAD,sci_writing,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-11,2026-09-30,subtask,P10-06,gap (relationship of ... in a table),none,n/a,False,False,orange,,,ACAD,sci_writing,True,'relationship of ... in a table' partly illegible,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P10-12,2026-09-30,note,,found at courses.opencv.org. Started the OpenCV bootcamp. goal: finish it this week ('next' struck). It's a mix of videos and notebooks.,none,n/a,False,False,orange,,,,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.23.jpeg
+P11-01,2026-10-01,daily,,software project management exercises in slides,empty,not_done_on_page,False,False,black,,-> have to do this in the morning before AI discussion (green),ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P11-02,2026-10-01,daily,,Bright's poster,marked,likely_done,False,False,black,,had to change fonts but it worked (green),LEAD,,False,,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P11-03,2026-10-01,daily,,CV presentation,marked,likely_done,False,False,black,,,ACAD,cv_course,False,,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P11-04,2026-10-01,daily,,finish transfer learning study,marked,likely_done,False,False,black,,-> got to explain to group (green),ACAD,cv_course,False,,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P11-05,2026-10-01,daily,,2 modules of opencv course,marked,likely_done,False,False,black,,* in margin (green),TECH,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P11-06,2026-10-01,daily,,read the publication on computer vision with video,empty,not_done_on_page,False,False,black,,,RES,,False,,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P11-07,2026-10-01,note,,version 2 worked really well. note to self: get a good & permanent choice for bg remover,none,n/a,False,False,green,,,,,True,Which item this attaches to is unclear (bracket spans several lines); 'bg remover' is a best reading,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P11-08,2026-10-01,note,,"They were 2: -> Transfer learning, made a lot of sense -> Proposal for lip reading project... start on building the research for this.",none,n/a,False,False,green,,,,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P11-09,2026-10-01,note,,"Strive to discuss findings with class mates to push each other forward. Also, next week's zindi should be in CV.",none,n/a,False,False,green,,,,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P11-10,2026-10-01,note,,"Started on functions in opencv: cv2.imread, imwrite, imshow, cvtColor, split, merge, flip etc. -> need to get an exercise to practice these tomorrow.",none,n/a,False,False,green,,,,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.22.jpeg
+P12-01,2026-10-02,daily,,software proj. mgt. exercises,empty,not_done_on_page,False,False,black,07:00,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg
+P12-02,2026-10-02,daily,,AI discussion,marked,likely_done,False,False,black,09:00,,ACAD,ai_course,False,,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg
+P12-03,2026-10-02,daily,,Data science class,marked,likely_done,False,False,black,11:00,,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg
+P12-04,2026-10-02,daily,,Zindi AI/ML event,marked,likely_done,False,False,black,14:00,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg
+P12-05,2026-10-02,daily,,Read AI generalist docs,unclear,unclear,False,False,black,13:00,,TECH,,True,Box has a small mark; could be empty,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg
+P12-06,2026-10-02,daily,,finalize research methodology (earlier words struck),marked,likely_done,False,False,black,16:00,,RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg
+P12-07,2026-10-02,daily,,opencv course,empty,not_done_on_page,False,False,black,22:00,,TECH,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg
+P12-08,2026-10-02,daily,,do some exercises for opencv (practice),empty,not_done_on_page,False,False,black,,,TECH,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg
+P12-09,2026-10-02,note,,compensate tomorrow -> Monday (bracket from the opencv items),none,n/a,False,False,green,,,,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.22 (1).jpeg
+P13-01,2026-10-03,daily,,Software Project Management recordings from Ms. Patience Ankunda,empty,not_done_on_page,False,False,black,10:00,,ACAD,spm_course,True,Surname spelling uncertain,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P13-02,2026-10-03,daily,,"Finalize first draft of literature review (submit for class, then print & give Wanja for review)",empty,not_done_on_page,False,False,black,14:00-18:00,,RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P13-03,2026-10-03,subtask,P13-02,Read more publications extensively,none,n/a,False,False,black,,,RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P13-04,2026-10-03,daily,,8km run,marked,likely_done,False,False,black,06:00 struck -> 08:00 (green),,HEALTH,running,False,,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P13-05,2026-10-03,daily,,laundry,marked,likely_done,False,False,black,07:00 struck -> 19:00 (green),,PERS,,False,,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P13-06,2026-10-03,daily,,discussion with Charis,marked,likely_done,False,False,green,,,RES,,True,Name read as 'Charis' (also appears 13-15 Oct),WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P13-07,2026-10-03,daily,,Deep learning & ML video,marked,likely_done,False,False,green,,,TECH,,False,,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P13-08,2026-10-03,daily,,open CV -> no eduroam,empty,not_done_on_page,False,False,black,,,TECH,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P13-09,2026-10-03,note,,"Eduroam is off, so, this will be done on Monday",none,n/a,False,False,green,,,,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P13-10,2026-10-03,note,,"Will do the printing on Monday as well, just reading through sources today",none,n/a,False,False,green,,,,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.16 (2).jpeg
+P14-01,2026-10-04,daily,,church,marked,likely_done,False,False,black,10:00,,FAITH,church,False,,WhatsApp Image 2026-10-22 at 18.43.31.jpeg
+P14-02,2026-10-04,daily,,ubuntu set up lab for data science,marked,likely_done,False,False,black,,"-> vm, -> docker (green)",ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.31.jpeg
+P14-03,2026-10-04,daily,,Munyonyo declaration poster,unclear,unclear,False,False,black,,,LEAD,,True,First word very uncertain; box looks filled,WhatsApp Image 2026-10-22 at 18.43.31.jpeg
+P14-04,2026-10-04,daily,,continue review paper study,empty,not_done_on_page,False,False,black,,-> after AI (green),RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.31.jpeg
+P14-05,2026-10-04,daily,,complete airqo github pull request,marked,likely_done,False,False,black,,,TECH,airqo,False,,WhatsApp Image 2026-10-22 at 18.43.31.jpeg
+P14-06,2026-10-04,daily,,make slides for AI presentation,empty,not_done_on_page,False,False,black,,-> before class (green),ACAD,ai_course,False,,WhatsApp Image 2026-10-22 at 18.43.31.jpeg
+P14-07,2026-10-04,daily,,design discussion timetable,marked,likely_done,False,False,black,,Agreed: Mon (11-13) AI <- Dunstan; Tue (14-16) DS; Thurs (10-12) CV; Fri (9-11) Soft. Prjt Mgt (green),ACAD,,True,Name 'Dunstan' uncertain,WhatsApp Image 2026-10-22 at 18.43.31.jpeg
+P15-01,no date,daily,,slides for AI,marked,likely_done,False,False,black,,,ACAD,ai_course,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-02,no date,daily,,finish structured literature review,empty,not_done_on_page,False,False,black,,,RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-03,no date,weekly_goal,,Finish structured review,filled,unclear,False,False,green,,,RES,lit_review,True,Box is heavily filled; done or emphasis?,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-04,no date,weekly_subgoal,P15-03,draft 01,marked,likely_done,False,False,green,,before end of Tuesday (bracket over first 3),,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-05,no date,weekly_subgoal,P15-03,print it,marked,likely_done,False,False,green,,before end of Tuesday,,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-06,no date,weekly_subgoal,P15-03,to Wanja for review,marked,likely_done,False,False,green,,before end of Tuesday,,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-07,no date,weekly_subgoal,P15-03,draft 02,marked,likely_done,False,False,green,,"<- add images, and restructure abstract to look like sample (black)",,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-08,no date,weekly_subgoal,P15-03,submit to Dr. by Sunday ('saturday' struck),marked,likely_done,False,False,green,,black tick added,,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-09,no date,weekly_goal,,AirQo model improvements following presentation,marked,likely_done,False,False,green,,,TECH,airqo,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-10,no date,weekly_goal,,create software project management group and start work,marked,likely_done,False,False,green,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-11,no date,weekly_goal,,start honours college papers,marked,likely_done,False,False,green,,,RES,honours_paper,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-12,no date,weekly_goal,,chapter 02 of Hands on ML (book) done,cross,not_done,False,False,green,,,TECH,handson_ml_ch02,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-13,no date,weekly_goal,,make sure Data Science class are on ubuntu successfully,marked,likely_done,False,False,green,,,ACAD,ds_course,True,Mark may be a cross,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-14,no date,weekly_goal,,Half way opencv course,marked,likely_done,False,False,green,,,TECH,opencv_course,True,Mark may be a cross,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-15,no date,weekly_goal,,start training model for my project (even if just data),cross,not_done,False,False,green,,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-16,no date,weekly_goal,,Report on the computer vision class lip reading project,marked,likely_done,False,False,green,,,ACAD,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-17,no date,weekly_goal,,4 runs -> 3 (4km) + 1 (8km on saturday),marked,likely_done,False,False,green,,three small black ticks with day labels above '3',HEALTH,running,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P15-18,no date,weekly_goal,,data science lab 05,marked,likely_done,False,False,green,,,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.50.jpeg
+P16-01,2026-10-05,daily,,finish structured literature review draft 01,marked,likely_done,False,True,black,08:00,,RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-02,2026-10-05,daily,,AI presentation,marked,likely_done,False,False,black,,,ACAD,ai_course,False,,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-03,2026-10-05,daily,,help data science elective class setup ubuntu vm/docker on their respective machines by 4:00pm,marked,likely_done,False,True,black,,,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-04,2026-10-05,daily,,ingredients for week for business,marked,likely_done,False,False,black,,,BIZ,business,False,,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-05,2026-10-05,daily,,lunch prayer meeting,marked,likely_done,False,False,black,,,FAITH,,False,,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-06,2026-10-05,daily,,pace setters leaders' meeting,marked,likely_done,False,True,black,,,LEAD,pacesetters,False,,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-07,2026-10-05,daily,,honours paper topic approval,marked,likely_done,False,False,black,,,RES,honours_paper,False,,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-08,2026-10-05,daily,,meeting with Ssegawa on PE-honours,marked,likely_done,False,False,black,,,RES,honours_paper,True,'PE-honours' uncertain,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-09,2026-10-05,daily,,discussion (AI),marked,likely_done,False,False,black,11:00-13:00,,ACAD,ai_course,False,,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-10,2026-10-05,daily,,morning run (4km),marked,likely_done,False,False,black,6:30-7:06 (green),,HEALTH,running,False,,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-11,2026-10-05,daily,,honours tuesday & wednesday posters,unclear,unclear,False,True,black,,,LEAD,honours_posters,True,Prefix looks like '-x' before the box,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P16-12,2026-10-05,note,,I'll be handling: -> november -> december -> exams -> agape -> weekly,none,n/a,False,False,green,,,,honours_posters,True,List items hard to read; assumed to be poster topics,WhatsApp Image 2026-10-22 at 18.43.31 (1).jpeg
+P17-01,2026-10-06,daily,,honours thursday & wednesday posters + fasting (green),marked,likely_done,False,False,black,10:00,,LEAD,honours_posters,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-02,2026-10-06,daily,,concept design for Odur's poster,marked,likely_done,False,False,black,,,LEAD,odur_posters,True,Name 'Odur' best reading,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-03,2026-10-06,daily,,finish project execution videos (class recordings),marked,likely_done,False,False,black,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-04,2026-10-06,daily,,print structured literature review and give Wanja,marked,likely_done,False,False,black,,green ticks over 'print' and 'give',RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-05,2026-10-06,daily,,read chapter 02 hands on ML,empty,not_done_on_page,False,False,black,,,TECH,handson_ml_ch02,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-06,2026-10-06,daily,,design structure of honours paper,empty,not_done_on_page,False,False,black,,,RES,honours_paper,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-07,2026-10-06,daily,,open cv course,empty,not_done_on_page,False,False,black,22:00,,TECH,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-08,2026-10-06,daily,,look up datasets for lipreading & final year project,empty,not_done_on_page,False,False,black,14:00,,RES,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-09,2026-10-06,daily,,IEEE structure of proposal for lip reading project and hand to group ('give' struck),empty,not_done_on_page,False,False,black,,,ACAD,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-10,2026-10-06,daily,,look into unanswered questions in my sft.prjt.mgt notes,empty,not_done_on_page,False,False,green,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P17-11,2026-10-06,daily,,meeting with Mr. Peter on class registration,marked,likely_done,False,False,green,,-> link for self facial scanning (black),PERS,peter,False,,WhatsApp Image 2026-10-22 at 18.43.51.jpeg
+P18-01,2026-10-07,daily,,datasets for lipreading & final year project,marked,likely_done,False,False,black,,,RES,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg
+P18-02,2026-10-07,daily,,print 5 copies of SLR and have it reviewed,marked,likely_done,False,False,black,,,RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg
+P18-03,2026-10-07,daily,,work on IEEE formatted lip reading proposal,marked,likely_done,False,False,black,,,ACAD,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg
+P18-04,2026-10-07,daily,,open cv,empty,not_done_on_page,False,False,black,,,TECH,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg
+P18-05,2026-10-07,daily,,hands on ML chapter 02,empty,not_done_on_page,False,False,black,,,TECH,handson_ml_ch02,False,,WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg
+P18-06,2026-10-07,daily,,structure honours paper,empty,not_done_on_page,False,False,black,,,RES,honours_paper,False,,WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg
+P18-07,2026-10-07,daily,,continue on Odur's designs,empty,not_done_on_page,False,False,black,,,LEAD,odur_posters,False,,WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg
+P18-08,2026-10-07,note,,"so far been asked to review: Bamba, Dra, Carol, Faith, Jesse, Wanja (orange, each ticked) + Charis, Ezra (green, ticked)",none,n/a,False,False,orange,,,,lit_review,True,Most names are best readings; heading may be 'so far been allocated to review',WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg
+P18-09,2026-10-07,note,,"got the proposal done -> datasets -> MUSAN (synthetic noise), GRID",none,n/a,False,False,green,,,,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.56 (1).jpeg
+P19-01,2026-10-08,daily,,open cv,empty,not_done_on_page,False,True,black,,,TECH,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P19-02,2026-10-08,daily,,computer vision slides & presentation for LipScribe,marked,likely_done,False,False,black,,green ticks over 'slides' and 'presentation',ACAD,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P19-03,2026-10-08,daily,,hands on ML chapter 02,empty,not_done_on_page,False,True,black,,,TECH,handson_ml_ch02,False,,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P19-04,2026-10-08,daily,,continue on Odur's designs,marked,likely_done,False,False,black,,,LEAD,odur_posters,False,,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P19-05,2026-10-08,daily,,finish IEEE formatted proposal in overleaf,marked,likely_done,False,False,black,,,ACAD,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P19-06,2026-10-08,daily,,get the datasets for lip reading cv project,marked,likely_done,False,False,black,,,ACAD,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P19-07,2026-10-08,daily,,start on honours paper research,empty,not_done_on_page,False,True,black,,,RES,honours_paper,False,,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P19-08,2026-10-08,daily,,honours college workshop,marked,likely_done,False,False,black,,,LEAD,honours_college,False,,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P19-09,2026-10-08,note,,asked to prepare details on implementation of our project,none,n/a,False,False,green,,,,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P19-10,2026-10-08,note,,"finished drafts, awaiting feedback",none,n/a,False,False,green,,,,lip_reading,True,Which drafts is not stated,WhatsApp Image 2026-10-22 at 18.43.56 (2).jpeg
+P20-01,2026-10-09,daily,,10km run,unclear,unclear,False,False,black,,,HEALTH,running,True,Box mark could be a cross,WhatsApp Image 2026-10-22 at 18.43.54.jpeg
+P20-02,2026-10-09,daily,,open cv,marked,likely_done,False,False,black,,,TECH,opencv_course,False,,WhatsApp Image 2026-10-22 at 18.43.54.jpeg
+P20-03,2026-10-09,daily,,give poster wider format... even if not finished today,empty,not_done_on_page,False,False,black,,,LEAD,odur_posters,True,Which poster is an inference,WhatsApp Image 2026-10-22 at 18.43.54.jpeg
+P21-01,2026-10-10,daily,,gemini + colab + zindi workflow,empty,not_done_on_page,False,False,black,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-02,2026-10-10,daily,,finalize literature review draft 02,marked,likely_done,False,False,black,,,RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-03,2026-10-10,daily,,laptop: audio drivers,empty,not_done_on_page,False,False,black,,,PERS,laptop_audio,False,,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-04,2026-10-10,daily,,odur's posters,empty,not_done_on_page,False,False,black,,,LEAD,odur_posters,False,,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-05,2026-10-10,daily,,start on project mgt group work,empty,not_done_on_page,False,False,black,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-06,2026-10-10,daily,,data & model selection for my proj.,empty,not_done_on_page,False,False,black,,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-07,2026-10-10,daily,,submit draft 02 to Dr. email,marked,likely_done,False,False,black,,,RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-08,2026-10-10,daily,,try to look at chapter 02 of hands on ML,empty,not_done_on_page,False,False,black,,,TECH,handson_ml_ch02,False,,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-09,2026-10-10,daily,,finish retraining airqo,marked,likely_done,False,False,green,,,TECH,airqo,False,,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-10,2026-10-10,daily,,document + report (arrow to airqo),marked,likely_done,False,False,green,,,TECH,airqo,True,Mark may be a cross,WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P21-11,2026-10-10,daily,,make slides,marked,likely_done,False,False,green,,,TECH,airqo,True,Which slides is an inference (AirQo),WhatsApp Image 2026-10-22 at 18.43.52.jpeg
+P22-01,2026-10-12,daily,,print literature review & submit,marked,likely_done,False,False,black,,green ticks over 'print' and 'submit',RES,lit_review,False,,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P22-02,2026-10-12,daily,,visit accounts office & confirm payment,marked,likely_done,False,False,black,,moodle now working (green),PERS,fees,True,Green note is a best reading,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P22-03,2026-10-12,daily,,finish last week's zindi,empty,not_done_on_page,False,False,black,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P22-04,2026-10-12,daily,,Odur's posters,empty,not_done_on_page,False,False,black,,,LEAD,odur_posters,False,,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P22-05,2026-10-12,daily,,4km run,marked,likely_done,False,False,black,,,HEALTH,running,False,,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P22-06,2026-10-12,daily,,AI presentation,marked,likely_done,False,False,black,,,ACAD,ai_course,False,,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P22-07,2026-10-12,daily,,start on prjt mgt group work,marked,likely_done,False,False,black,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P22-08,2026-10-12,daily,,"lab 05, data science, finish one task",marked,likely_done,False,False,black,,green ticks,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P22-09,2026-10-12,daily,,laptop audio drivers,empty,not_done_on_page,False,False,black,,,PERS,laptop_audio,False,,WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P22-10,2026-10-12,note,,make sure you finish the store function,none,n/a,False,False,green,,,,ds_course,True,Attached by bracket to the lab 05 item (inference),WhatsApp Image 2026-10-22 at 18.43.55 (1).jpeg
+P23-01,no date,weekly_goal,,Odur's posters,marked,likely_done,False,False,green,,,LEAD,odur_posters,False,,WhatsApp Image 2026-10-22 at 18.43.56 (3).jpeg
+P23-02,no date,weekly_goal,,Project notebook opened (data prep) ('Sta' struck),marked,likely_done,False,False,green,,,RES,fyp,True,'opened' best reading,WhatsApp Image 2026-10-22 at 18.43.56 (3).jpeg
+P23-03,no date,weekly_goal,,ML hands on chapter 02,empty,not_done_on_page,False,False,green,,,TECH,handson_ml_ch02,False,,WhatsApp Image 2026-10-22 at 18.43.56 (3).jpeg
+P23-04,no date,weekly_goal,,laptop audio drivers,marked,likely_done,False,False,green,,,PERS,laptop_audio,False,,WhatsApp Image 2026-10-22 at 18.43.56 (3).jpeg
+P23-05,no date,weekly_goal,,honours paper structure,empty,not_done_on_page,False,False,green,,,RES,honours_paper,False,,WhatsApp Image 2026-10-22 at 18.43.56 (3).jpeg
+P23-06,no date,weekly_goal,,project mgt group work finished,marked,likely_done,False,False,green,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.56 (3).jpeg
+P23-07,no date,weekly_goal,,zindi,empty,not_done_on_page,False,False,green,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.56 (3).jpeg
+P23-08,no date,weekly_subgoal,P23-07,also push all finished models to github,empty,not_done_on_page,False,False,green,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.56 (3).jpeg
+P24-01,2026-10-13,daily,,Honours posters,marked,likely_done,False,False,black,,green tick and cross after text,LEAD,honours_posters,True,Mixed tick+cross: partly done?,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-02,2026-10-13,daily,,Odur's posters,marked,likely_done,False,False,black,,-> landscape -> organized (green),LEAD,odur_posters,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-03,2026-10-13,daily,,continue zindi,empty,not_done_on_page,False,False,black,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-04,2026-10-13,daily,,laptop audio driver,marked,likely_done,False,False,black,,,PERS,laptop_audio,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-05,2026-10-13,daily,,downloading video datasets for project,marked,likely_done,False,False,black,,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-06,2026-10-13,daily,,setting up drive for project,marked,likely_done,False,False,black,,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-07,2026-10-13,daily,,start training the models,empty,not_done_on_page,False,False,black,,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-08,2026-10-13,daily,,software project mgt discussion for assignment,marked,likely_done,False,False,black,14:00 struck -> 16,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-09,2026-10-13,daily,,one page project presentation document,marked,likely_done,False,False,black,,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-10,2026-10-13,note,,make sure all raw videos are processed into .pt / .pkl files,none,n/a,False,False,green,,,,fyp,True,File-format words uncertain,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-11,2026-10-13,note,,working between drive & colab to use colab gpu.,none,n/a,False,False,green,,,,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-12,2026-10-13,note,,for better audio on ubuntu -> fixed it ... now have extra volume,none,n/a,False,False,green,,,,laptop_audio,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-13,2026-10-13,note,,"majorly, choosing this week's challenge",none,n/a,False,False,green,,,,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P24-14,2026-10-13,note,,"main datasets: PoseLift (tick), Hollywood2 (struck, cross), UCF-Crime (tick), KTH (tick) -> processing to .npy",none,n/a,False,False,green,,,,fyp,True,Dataset names best readings,WhatsApp Image 2026-10-22 at 18.43.55.jpeg
+P25-01,2026-10-14,daily,,thursday Honours poster,marked,likely_done,False,False,black,,,LEAD,honours_posters,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P25-02,2026-10-14,daily,,logos on Odur's posters,marked,likely_done,False,False,black,,,LEAD,odur_posters,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P25-03,2026-10-14,daily,,continue zindi,empty,not_done_on_page,False,False,black,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P25-04,2026-10-14,daily,,mid sem project presentation,marked,likely_done,False,False,black,,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P25-05,2026-10-14,daily,,finalize & polish proj mgt group submission,empty,not_done_on_page,False,False,black,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P25-06,2026-10-14,daily,,clarify & do CV assignment,marked,likely_done,False,False,black,,,ACAD,cv_course,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P25-07,2026-10-14,daily,,discuss the abstract with Charis for airqo,empty,not_done_on_page,False,False,black,,,TECH,airqo,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P25-08,2026-10-14,daily,,print project page,marked,likely_done,False,False,black,08:00,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P25-09,2026-10-14,daily,,letter for auditing,empty,not_done_on_page,False,False,black,,,PERS,auditing_letter,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P25-10,2026-10-14,note,,"look into use cases -> most probable, exam malpractice -> create video dataset -> also get airport videos.",none,n/a,False,False,green,,,,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.56.jpeg
+P26-01,2026-10-15,daily,,print auditing letter and drop off,marked,likely_done,False,False,black,,green ticks,PERS,auditing_letter,False,,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg
+P26-02,2026-10-15,daily,,finish & submit SPM,marked,likely_done,False,False,black,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg
+P26-03,2026-10-15,daily,,continue zindi,empty,not_done_on_page,False,False,black,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg
+P26-04,2026-10-15,daily,,start project week 2,empty,not_done_on_page,False,False,black,,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg
+P26-05,2026-10-15,daily,,dataset hunting with Dru,empty,not_done_on_page,False,False,black,,,RES,fyp,True,Name 'Dru' uncertain,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg
+P26-06,2026-10-15,daily,,abstract with Charis,marked,likely_done,False,False,black,,,TECH,airqo,False,,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg
+P26-07,2026-10-15,daily,,CV implementation presentation,marked,likely_done,False,False,black,16:00 (green),'read' or 'send' (green),ACAD,cv_course,True,Green word unclear,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg
+P26-08,2026-10-15,daily,,"(empty checkbox, no text)",empty,not_done_on_page,False,False,black,,,,,True,Blank line with a checkbox,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg
+P26-09,2026-10-15,note,,also IEEE formatted abstract & report,none,n/a,False,False,green,,,,airqo,True,Arrow may attach to 'abstract with Charis' or the CV presentation,WhatsApp Image 2026-10-22 at 18.43.56 (4).jpeg
+P27-01,2026-10-16,daily,,10km run,unclear,unclear,False,False,black,,woke up late (green),HEALTH,running,True,Mark unclear; note suggests not done,WhatsApp Image 2026-10-22 at 18.43.57.jpeg
+P27-02,2026-10-16,daily,,organize & mobilize code buddies,marked,likely_done,False,False,black,,,LEAD,code_buddies,False,,WhatsApp Image 2026-10-22 at 18.43.57.jpeg
+P27-03,2026-10-16,daily,,games at event,marked,likely_done,False,False,black,,,LEAD,code_buddies,False,,WhatsApp Image 2026-10-22 at 18.43.57.jpeg
+P27-04,2026-10-16,daily,,finish matrix det. program in py.,marked,likely_done,False,False,black,,,ACAD,,True,'det.' probably determinant,WhatsApp Image 2026-10-22 at 18.43.57.jpeg
+P28-01,2026-10-17,daily,,10km run,empty,not_done_on_page,False,False,black,,,HEALTH,running,False,,WhatsApp Image 2026-10-22 at 18.43.57 (1).jpeg
+P28-02,2026-10-17,daily,,SPM discussion,marked,likely_done,False,False,black,07:00,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.43.57 (1).jpeg
+P28-03,2026-10-17,daily,,evening config,marked,likely_done,False,False,black,10:00,,ACAD,,True,First word may be 'routing'; the log below is about telnet/L3/router,WhatsApp Image 2026-10-22 at 18.43.57 (1).jpeg
+P28-04,2026-10-17,note,,"first, telnet wasn't working, fixed it. then, had the wrong image (was supposed to be using an L3 but had a router). hit a bunch of walls trying to get it, didn't manage. we shall again tomorrow.",none,n/a,False,False,green,,,,,False,,WhatsApp Image 2026-10-22 at 18.43.57 (1).jpeg
+P29-01,2026-10-18,daily,,Bel's place,marked,likely_done,False,False,black,,,PERS,,True,Name uncertain (Bel/Joel),WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-02,2026-10-18,daily,,laundry,empty,not_done_on_page,False,False,black,,,PERS,,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-03,2026-10-18,daily,,church,marked,likely_done,False,False,black,,,FAITH,church,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-04,2026-10-18,daily,,add complaints site social links,marked,likely_done,False,False,black,,,TECH,complaints_site,True,First word uncertain ('add'/'caa'),WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-05,2026-10-18,weekly_goal,,Honours paper,filled,unclear,False,False,green,,,RES,honours_paper,True,"Filled box: done, started or emphasis?",WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-06,2026-10-18,weekly_goal,,start on papers about my goals,empty,open,False,False,green,,,PERS,,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-07,2026-10-18,weekly_goal,,Training of project model & starting to gather videos for test,empty,open,False,False,green,,,RES,fyp,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-08,2026-10-18,weekly_goal,,Discussing with Peter on way forward,empty,open,False,False,green,,,RES,peter,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-09,2026-10-18,weekly_goal,,Get a hair cut,empty,open,False,False,green,,,PERS,,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-10,2026-10-18,weekly_goal,,Dinner outfit & good day,empty,open,False,False,green,,,PERS,,True,'outfit' best reading,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-11,2026-10-18,weekly_goal,,Fees completed,empty,open,False,False,green,,,PERS,fees,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-12,2026-10-18,weekly_goal,,zindi,empty,open,False,False,green,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-13,2026-10-18,weekly_goal,,AFGM lock in,empty,open,False,False,green,,,PERS,,True,Acronym unclear,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-14,2026-10-18,weekly_goal,,commence blogs,empty,open,False,False,green,,,BRAND,blogs,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-15,2026-10-18,weekly_goal,,start on portfolio,empty,open,False,False,green,,,BRAND,portfolio,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-16,2026-10-18,weekly_goal,,where to submit paper,empty,open,False,False,green,,,RES,honours_paper,True,Which paper is an inference,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P29-17,2026-10-18,weekly_goal,,DS assignment,empty,open,False,False,green,,,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.43.58.jpeg
+P30-01,2026-10-19,daily,,meet Peter,empty,not_done_on_page,False,True,black,14:00,,RES,peter,False,,WhatsApp Image 2026-10-22 at 18.44.00 (1).jpeg
+P30-02,2026-10-19,daily,,get someone to work on shoes,marked,likely_done,False,False,black,,,PERS,shoes,False,,WhatsApp Image 2026-10-22 at 18.44.00 (1).jpeg
+P30-03,2026-10-19,daily,,ask hombres to help build suit,marked,likely_done,False,False,black,,,PERS,,True,'hombres' uncertain,WhatsApp Image 2026-10-22 at 18.44.00 (1).jpeg
+P30-04,2026-10-19,daily,,labs 05 & 06 in data science,empty,not_done_on_page,False,False,black,,green tick above '06',ACAD,ds_course,True,Lab 06 done but 05 not?,WhatsApp Image 2026-10-22 at 18.44.00 (1).jpeg
+P30-05,2026-10-19,daily,,zindi for this week,empty,not_done_on_page,False,False,black,,,TECH,zindi,False,,WhatsApp Image 2026-10-22 at 18.44.00 (1).jpeg
+P30-06,2026-10-19,daily,,honours weekly poster,marked,likely_done,False,False,black,,,LEAD,honours_posters,False,,WhatsApp Image 2026-10-22 at 18.44.00 (1).jpeg
+P30-07,2026-10-19,daily,,some SPM reading,marked,likely_done,False,False,black,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.44.00 (1).jpeg
+P30-08,2026-10-19,note,,"we had a meeting, said we'll meet tomorrow -> we shall tomorrow",none,n/a,False,False,green,,,,peter,True,Bracket spans the whole list; assumed to refer to 'meet Peter',WhatsApp Image 2026-10-22 at 18.44.00 (1).jpeg
+P31-01,2026-10-20,daily,,get to department by 06:45,marked,likely_done,False,False,black,,-> reached at 06:58 (green),HEALTH,sleep_wake,True,Marked although target time was missed,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-02,2026-10-20,daily,,finish DS lab 05,empty,not_done_on_page,False,False,black,,,ACAD,ds_course,False,,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-03,2026-10-20,daily,,finish weekly poster,marked,likely_done,False,False,black,,-> haven't done Thursday (green),LEAD,honours_posters,True,Marked but note says part not done,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-04,2026-10-20,daily,,activity log tracker (build & test & push),marked,likely_done,False,False,black,,,TECH,activity_log_tracker,False,,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-05,2026-10-20,daily,,SPM test,marked,likely_done,False,False,black,,,ACAD,spm_course,False,,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-06,2026-10-20,daily,,Honour research structure,empty,not_done_on_page,False,False,black,,,RES,honours_paper,False,,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-07,2026-10-20,daily,,leading community worship,marked,likely_done,False,False,black,,,FAITH,,True,'leading' vs 'reading',WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-08,2026-10-20,daily,,meeting Peter,marked,likely_done,False,False,black,,-> finish MVP by Nov. week 2 (green),RES,peter,False,,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-09,2026-10-20,daily,,picking my shoes,marked,likely_done,False,False,black,,,PERS,shoes,False,,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-10,2026-10-20,daily,,"make complaints code modular (if you can, python)",marked,likely_done,False,False,black,,,TECH,complaints_site,False,,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P31-11,2026-10-20,note,,start.sh in frontend to start frontend; npm run dev for back or npm start -> all pushed,none,n/a,False,False,green,,,,complaints_site,False,,WhatsApp Image 2026-10-22 at 18.44.00.jpeg
+P32-01,2026-10-21,daily,,build lip crop,marked,likely_done,False,False,black,,,ACAD,lip_reading,False,,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg
+P32-02,2026-10-21,daily,,finish log tracker,marked,likely_done,False,False,black,,,TECH,activity_log_tracker,False,,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg
+P32-03,2026-10-21,daily,,weekly blogs,empty,not_done_on_page,False,False,black,,,BRAND,blogs,False,,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg
+P32-04,2026-10-21,daily,,quickshare (involve the replicas),marked,likely_done,False,False,black,,,TECH,,True,Parenthetical uncertain,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg
+P32-05,2026-10-21,daily,,fellowship,marked,likely_done,False,False,black,,,FAITH,fellowship,False,,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg
+P32-06,2026-10-21,daily,,fill out dayclass,empty,not_done_on_page,False,False,black,,,PERS,dayclass,True,'dayclass' unclear,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg
+P32-07,2026-10-21,daily,,research for flying car blog,empty,not_done_on_page,False,False,black,,,BRAND,blogs,False,,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg
+P32-08,2026-10-21,daily,,research for honours paper,empty,not_done_on_page,False,False,black,,,RES,honours_paper,False,,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg
+P32-09,2026-10-21,daily,,Uganda Partners seminar,marked,likely_done,False,False,black,,,LEAD,,False,,WhatsApp Image 2026-10-22 at 18.43.59 (1).jpeg
+P33-01,2026-10-22,daily,,Birthday wishes for mummy,empty,open,False,False,black,,,PERS,,True,Faint pencil text to the right is illegible,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-02,2026-10-22,daily,,review report submission,empty,open,False,False,black,,,ACAD,,False,,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-03,2026-10-22,daily,,look at API research,empty,open,False,False,black,,,TECH,,False,,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-04,2026-10-22,daily,,XAI in the covid x MLP,empty,open,False,False,black,,,RES,,True,Best guess,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-05,2026-10-22,daily,,fill out dayclass,unclear,unclear,False,False,black,,,PERS,dayclass,True,Box looks marked; 'dayclass' unclear,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-06,2026-10-22,daily,,weekly blogs,empty,open,False,False,black,,,BRAND,blogs,False,,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-07,2026-10-22,daily,,research for flying car blog,empty,open,False,False,black,,,BRAND,blogs,False,,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-08,2026-10-22,daily,,research for honours,empty,open,False,False,black,,,RES,honours_paper,False,,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-09,2026-10-22,daily,,portfolio research,empty,open,False,False,black,,,BRAND,portfolio,False,,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-10,2026-10-22,daily,,resolve airqo merge conflict,empty,open,False,False,black,,,TECH,airqo,False,,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-11,2026-10-22,daily,,claude as contributor (remove),empty,open,False,False,black,,,TECH,airqo,True,Probably removing Claude as a repo contributor; repo is an inference,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-12,2026-10-22,daily,,review Nenna's submission,empty,open,False,False,black,,,ACAD,,True,Name uncertain,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
+P33-13,2026-10-22,daily,,fill out / customize notion,empty,open,False,False,black,,,PERS,,False,,WhatsApp Image 2026-10-22 at 18.43.59.jpeg
