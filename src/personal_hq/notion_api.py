@@ -126,6 +126,9 @@ class NotionGateway:
     def update_page(self, page_id: str, properties: Json) -> Json:
         return self._call(self._client.pages.update, page_id=page_id, properties=properties)
 
+    def delete_page(self, page_id: str) -> Json:
+        return self._call(self._client.pages.update, page_id=page_id, in_trash=True)
+
     def append_children(self, block_id: str, children: list[Json], position: Json | None = None) -> Json:
         kwargs: Json = {"block_id": block_id, "children": children}
         if position:
@@ -273,6 +276,12 @@ class InMemoryNotion:
         page["properties"].update(copy.deepcopy(properties))
         return copy.deepcopy(page)
 
+    def delete_page(self, page_id: str) -> Json:
+        self._write("delete_page", {"page_id": page_id})
+        if page_id in self.objects:
+            self.objects[page_id]["in_trash"] = True
+        return {"object": "page", "id": page_id, "in_trash": True}
+
     def append_children(self, block_id: str, children: list[Json], position: Json | None = None) -> Json:
         self._write("append_children", {"block_id": block_id, "children": children, "position": position})
         made = [self._make_block(c) for c in children]
@@ -406,6 +415,10 @@ class DryRunGateway:
                 return {"object": "page", "id": page_id, "properties": properties}
             self.overlay.import_object(self.inner.retrieve_page(page_id))
         return self.overlay.update_page(page_id, properties)
+
+    def delete_page(self, page_id: str) -> Json:
+        self._plan("delete_page", page_id, {"in_trash": True})
+        return self.overlay.delete_page(page_id)
 
     def append_children(self, block_id: str, children: list[Json], position: Json | None = None) -> Json:
         self._plan("append_children", block_id, {"children": children, "position": position})

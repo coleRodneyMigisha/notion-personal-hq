@@ -554,6 +554,35 @@ class TaskManager:
             self.dayglass_bridge.sync_task(new_item)
         return new_item
 
+    def delete_task(self, task_id: str) -> TaskItem | None:
+        """Permanently delete/trash a task in Notion, local cache, and Dayglass."""
+        if task_id not in self.tasks:
+            return None
+        task = self.tasks[task_id]
+
+        # 1. Delete in Notion
+        try:
+            self.gw.delete_page(task_id)
+        except Exception as exc:
+            log.warning(f"Could not delete/trash page in Notion: {exc}, marking Dropped")
+            try:
+                self.gw.update_page(task_id, {"Status": {"select": {"name": "Dropped"}}})
+            except Exception:
+                pass
+
+        # 2. Remove from in-memory cache
+        del self.tasks[task_id]
+        if task.planned and task.planned in self.tasks_by_date:
+            self.tasks_by_date[task.planned] = [t for t in self.tasks_by_date[task.planned] if t.id != task_id]
+            if not self.tasks_by_date[task.planned]:
+                del self.tasks_by_date[task.planned]
+
+        # 3. Remove from Dayglass SQLite
+        if self.dayglass_bridge:
+            self.dayglass_bridge.delete_task(task_id)
+
+        return task
+
     def sync_contribution_calendar(self) -> dict[str, Any]:
         """Aggregate completed tasks and update the Contribution Calendar in Notion."""
         counts: dict[date, int] = defaultdict(int)
@@ -694,6 +723,7 @@ class TerminalController:
                 b"\x1b[1;2C": "right",
                 b"\x1b[1;2D": "left",
                 b"\x1b[Z": "shift_tab",
+                b"\x1b[3~": "delete",
             }
             for seq, key_name in KEY_MAP.items():
                 if raw_bytes.startswith(seq):
@@ -819,7 +849,7 @@ class DailyTasksViewer:
             f"{GRAY}─" * 80 + RESET,
             f" {BOLD}[←/→ or h/l]{RESET} Prev/Next Day  •  {BOLD}[t]{RESET} Today  •  {BOLD}[g]{RESET} Go to Date  •  {BOLD}[Tab]{RESET} Jump Task Day",
             f" {BOLD}[↑/↓ or k/j]{RESET} Select Task    •  {BOLD}[Space/d]{RESET} Toggle Done  •  {BOLD}[f]{RESET} Focus  •  {BOLD}[s]{RESET} Status",
-            f" {BOLD}[a]{RESET} Add  •  {BOLD}[e]{RESET} Edit  •  {BOLD}[m]{RESET} Move  •  {BOLD}[c]{RESET} Carry  •  {BOLD}[u]{RESET} Sync Cal  •  {BOLD}[r]{RESET} Refresh  •  {BOLD}[q]{RESET} Quit",
+            f" {BOLD}[a]{RESET} Add  •  {BOLD}[e]{RESET} Edit  •  {BOLD}[x]{RESET} Del  •  {BOLD}[m]{RESET} Move  •  {BOLD}[c]{RESET} Carry  •  {BOLD}[u]{RESET} Sync  •  {BOLD}[q]{RESET} Quit",
             f"{BOLD}{CYAN}═" * 80 + RESET,
             f" {BOLD}Status:{RESET} {self.status_message}",
         ])
@@ -922,6 +952,19 @@ class DailyTasksViewer:
                 new_notes = self.terminal.prompt(f"Notes [{task.notes}]: ", default=task.notes)
                 self.manager.edit_task(task.id, title=new_title, time_str=new_time, notes=new_notes)
                 self.status_message = f"Task #{self.selected_index + 1} updated."
+        elif key in ("x", "X", "delete"):
+            if tasks and 0 <= self.selected_index < len(tasks):
+                task = tasks[self.selected_index]
+                self.terminal.write("\n")
+                confirm = self.terminal.prompt(f"Delete task '{task.title}'? [y/N]: ", default="n")
+                if confirm.lower().startswith("y"):
+                    self.manager.delete_task(task.id)
+                    self.status_message = f"Deleted task '{task.title}' (removed from Notion & Dayglass)"
+                    self.selected_index = max(0, min(self.selected_index, len(self.get_current_tasks()) - 1))
+                else:
+                    self.status_message = "Deletion cancelled."
+            else:
+                self.status_message = "No task selected to delete."
         elif key == "m":
             if tasks and 0 <= self.selected_index < len(tasks):
                 task = tasks[self.selected_index]
@@ -1011,6 +1054,7 @@ class DailyTasksViewer:
             f"    [f]                  Toggle Focus priority (★)",
             f"    [s]                  Change Status (To do / Done / Not done / Dropped / Needs review)",
             f"    [e]                  Edit task title, time, or notes",
+            f"    [x] or [Delete]      Delete task (permanently moves to trash in Notion & Dayglass)",
             f"    [m]                  Move / reschedule task to another date",
             f"    [c]                  Carry over task (marks Not done, creates copy on new date)",
             f"    [a] or [+]           Add a new task for current day",

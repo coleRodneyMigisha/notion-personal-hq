@@ -427,3 +427,30 @@ def test_offline_manager_loader(real_extraction, projects_cfg, tmp_path):
     assert len(dates) > 10
     tasks_sample = mgr.tasks_for_date(dates[0])
     assert len(tasks_sample) > 0
+
+
+def test_task_manager_delete_task(mock_notion_env):
+    mgr = mock_notion_env
+    gw = mgr.gw
+
+    assert "p1" in mgr.tasks
+    assert len(mgr.tasks_for_date("2026-11-07")) == 2
+
+    deleted = mgr.delete_task("p1")
+    assert deleted is not None
+    assert deleted.id == "p1"
+    assert "p1" not in mgr.tasks
+    assert len(mgr.tasks_for_date("2026-11-07")) == 1
+    assert gw.objects["p1"]["in_trash"] is True
+
+
+def test_viewer_delete_key(mock_notion_env):
+    mgr = mock_notion_env
+    viewer = DailyTasksViewer(mgr, initial_date=date(2026, 11, 7))
+    viewer.terminal = TerminalController(in_file=StringIO("y\n"), out_file=StringIO())
+
+    assert len(viewer.get_current_tasks()) == 2
+    viewer.handle_key("x")
+
+    assert "Deleted task" in viewer.status_message
+    assert len(viewer.get_current_tasks()) == 1
