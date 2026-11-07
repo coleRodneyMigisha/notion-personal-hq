@@ -11,3 +11,6 @@ __pycache__/
 # run output
 logs/
 data/extracted/*.backup-*.json
+
+# IDE
+.idea/

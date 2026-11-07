@@ -205,6 +205,32 @@ first `--apply` run adds the missing `Completed on` property and fills blank
 historical completion dates from each task's `Planned` date. Existing
 `Completed on` values are never overwritten.
 
+### 3.2 Interactive Daily Tasks Viewer (CLI)
+
+To skim through days, inspect daily tasks, and make quick edits in real time from your terminal:
+
+```bash
+source .venv/bin/activate
+python scripts/task_viewer.py                   # start from today
+python scripts/task_viewer.py --date 2026-10-22 # start from a specific date
+python scripts/task_viewer.py --offline         # browse local extraction data offline
+```
+
+**Keyboard controls:**
+* **Skim days:** `[←]` / `[→]` or `[h]` / `[l]` for prev/next day; `[t]` for Today; `[g]` to jump to any date (supports `YYYY-MM-DD`, `+1`, `-2`, `tomorrow`); `[Tab]` to jump directly to the next day with tasks.
+* **Select tasks:** `[↑]` / `[↓]` or `[k]` / `[j]` (or press `[1]`–`[9]`).
+* **Edit & action:**
+  * `[Space]` or `[d]`: Toggle Done / To do (syncs status and sets `Completed on` in Notion).
+  * `[f]`: Toggle Focus priority (★).
+  * `[s]`: Change status (To do, Done, Not done, Dropped, Needs review).
+  * `[e]`: Edit task title, time slot, or notes.
+  * `[m]`: Move / reschedule task to another day.
+  * `[c]`: Carry over task (marks current Not done, creates a copy on the target date).
+  * `[a]`: Add a new task for the displayed day.
+  * `[u]`: Sync & update the Contribution Calendar in Notion with all completed tasks.
+  * `[r]`: Refresh all tasks from Notion.
+  * `[q]`: Quit.
+
 **Every Sunday: weekly review (20 minutes)**
 1. Open **Tasks → Slipped (not done)**. What keeps slipping, and why?
 2. Open this week's page in **Weeks** and fill in Wins, What slipped & why, Lessons, Adjustments.
