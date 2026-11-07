@@ -581,23 +581,25 @@ class TaskManager:
         contrib_ds = contrib_info["data_source_id"]
         contrib_db_id = contrib_info.get("database_id", "")
 
-        existing: dict[str, str] = {}
+        existing: dict[str, tuple[str, int | None]] = {}
         try:
             for p in self.gw.query_data_source(contrib_ds):
                 props = p.get("properties", {})
                 iid_prop = props.get("Import ID") or {}
                 iid = plain_text(iid_prop.get("rich_text") or iid_prop.get("title") or [])
+                cnt_prop = props.get("Completed") or {}
+                cnt_val = cnt_prop.get("number")
                 if iid:
-                    existing[iid] = p["id"]
+                    existing[iid] = (p["id"], cnt_val)
         except Exception as exc:
             log.warning(f"Could not query existing contribution calendar pages: {exc}")
 
         # Fallback to state records
         cached_records = self.state.get("records", {}).get("contribution_calendar", {})
         for iid, pid in cached_records.items():
-            existing.setdefault(iid, pid)
+            existing.setdefault(iid, (pid, None))
 
-        created = updated = 0
+        created = updated = skipped = 0
         for day, cnt in sorted(counts.items()):
             import_id = f"contrib-{day.isoformat()}"
             level = level_for_count(cnt)
@@ -609,10 +611,14 @@ class TaskManager:
                 "Import ID": {"rich_text": [{"type": "text", "text": {"content": import_id}}]},
             }
             if import_id in existing:
-                self.gw.update_page(existing[import_id], props)
-                updated += 1
+                pid, prev_cnt = existing[import_id]
+                if prev_cnt != cnt:
+                    self.gw.update_page(pid, props)
+                    updated += 1
+                else:
+                    skipped += 1
                 if hasattr(self.state, "record"):
-                    self.state.record("contribution_calendar", import_id, existing[import_id])
+                    self.state.record("contribution_calendar", import_id, pid)
             else:
                 body = {
                     "parent": {"data_source_id": contrib_ds, "type": "data_source_id"},
@@ -628,14 +634,20 @@ class TaskManager:
                         raise
                 created += 1
                 if page and page.get("id"):
-                    existing[import_id] = page["id"]
+                    existing[import_id] = (page["id"], cnt)
                     if hasattr(self.state, "record"):
                         self.state.record("contribution_calendar", import_id, page["id"])
 
         if (created or updated) and hasattr(self.state, "save"):
             self.state.save()
 
-        return {"days": len(counts), "created": created, "updated": updated, "total_done": total_done}
+        return {
+            "days": len(counts),
+            "created": created,
+            "updated": updated,
+            "skipped": skipped,
+            "total_done": total_done,
+        }
 
 
 class TerminalController:

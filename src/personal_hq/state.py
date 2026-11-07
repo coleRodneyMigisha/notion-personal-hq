@@ -42,6 +42,21 @@ class State:
     def __setitem__(self, key: str, value: Any) -> None:
         self.data[key] = value
 
+    def __contains__(self, key: str) -> bool:
+        return key in self.data
+
+    def get(self, key: str, default: Any = None) -> Any:
+        return self.data.get(key, default)
+
+    def keys(self):
+        return self.data.keys()
+
+    def values(self):
+        return self.data.values()
+
+    def items(self):
+        return self.data.items()
+
     def record(self, db: str, import_id: str, page_id: str) -> None:
         self.data["records"].setdefault(db, {})[import_id] = page_id
 
